@@ -1,0 +1,276 @@
+﻿<html>
+<head>
+<meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.2.4.min.js"></script>
+<link rel="stylesheet" href="/assets/css/main.css" />
+ <title>四月新番簡介</title>
+<style type="text/css">
+h2 { color: red;
+font-size: 33px;
+font-style: oblique;}
+h3 {color: black;
+font-size: 26px;}
+        body {
+            background-image: url("images/background.jpg");
+			background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+ </style>
+ <script src="jquery-1.7.1.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("#mm").fadeTo("slow", 0.45);
+        });
+
+        $(document).ready(function() {
+            $("#mm").mouseenter(function() {
+                $(this).fadeTo("slow", 0.9);
+            })
+            $("#mm").mouseleave(function() {
+                $(this).fadeTo("slow", 0.5);
+            });
+        });
+    </script>
+<script> 
+ $(document).ready(function() {
+            $("#or").click(function() {
+            $("#or1").fadeToggle("slow");
+			$("#or2").fadeToggle("slow");
+			$("#m1").fadeToggle("slow");
+			$("#m2").fadeToggle("slow");
+			$("#p1").fadeToggle("slow");
+			$("#p2").fadeToggle("slow");
+            });
+            $("#cm").click(function() {
+            $("#cm1").fadeToggle("slow");
+			$("#cm2").fadeToggle("slow");
+			$("#m3").fadeToggle("slow");
+			$("#m4").fadeToggle("slow");
+			$("#p3").fadeToggle("slow");
+			$("#p4").fadeToggle("slow");
+            });
+            $("#nv").click(function() {
+            $("#nv1").slideToggle("slow");
+			$("#nv2").slideToggle("slow");
+			$("#m5").fadeToggle("slow");
+			$("#m6").fadeToggle("slow");
+			$("#p5").fadeToggle("slow");
+			$("#p6").fadeToggle("slow");
+            });
+            $("#gm").click(function() {
+            $("#gm1").slideToggle("slow");
+			$("#m7").fadeToggle("slow");
+			$("#p7").fadeToggle("slow");
+            });
+        });
+ </script>
+ <script>
+ $(document).ready(function() {
+ 			$("#m1").click(function() {
+            $("#d1").show("slow");
+			$("#c1").show();
+			$("#m1").hide();
+            });
+			$("#c1").click(function() {
+			$("#d1").hide("slow");
+			$("#c1").hide();
+			$("#m1").show();
+			});
+			$("#m2").click(function() {
+            $("#d2").show("slow");
+			$("#c2").show();
+			$("#m2").hide();
+            });
+			$("#c2").click(function() {
+			$("#d2").hide("slow");
+			$("#c2").hide();
+			$("#m2").show();
+			}); 			
+			$("#m3").click(function() {
+            $("#d3").show("slow");
+			$("#c3").show();
+			$("#m3").hide();
+            });
+			$("#c3").click(function() {
+			$("#d3").hide("slow");
+			$("#c3").hide();
+			$("#m3").show();
+			});
+ 			$("#m4").click(function() {
+            $("#d4").show("slow");
+			$("#c4").show();
+			$("#m4").hide();
+            });
+			$("#c4").click(function() {
+			$("#d4").hide("slow");
+			$("#c4").hide();
+			$("#m4").show();
+			});
+			$("#m5").click(function() {
+            $("#d5").show("slow");
+			$("#c5").show();
+			$("#m5").hide();
+            });
+			$("#c5").click(function() {
+			$("#d5").hide("slow");
+			$("#c5").hide();
+			$("#m5").show();
+			});
+			$("#m6").click(function() {
+            $("#d6").show("slow");
+			$("#c6").show();
+			$("#m6").hide();
+            });
+			$("#c6").click(function() {
+			$("#d6").hide("slow");
+			$("#c6").hide();
+			$("#m6").show();
+			});
+			$("#m7").click(function() {
+            $("#d7").show("slow");
+			$("#c7").show();
+			$("#m7").hide();
+            });
+			$("#c7").click(function() {
+			$("#d7").hide("slow");
+			$("#c7").hide();
+			$("#m7").show();
+			});
+});
+ </script>
+<script>
+$(document).ready(function() {
+ 			$("#p1").click(function() {
+            if ($("#j1").is(':hidden')) 
+            $("#j1").slideDown('slow');
+            else 
+            $("#j1").slideUp('slow'); 
+            });
+			$("#p2").click(function() {
+            if ($("#j2").is(':hidden')) 
+            $("#j2").slideDown('slow');
+            else 
+            $("#j2").slideUp('slow'); 
+            });
+			 			$("#p3").click(function() {
+            if ($("#j3").is(':hidden')) 
+            $("#j3").slideDown('slow');
+            else 
+            $("#j3").slideUp('slow'); 
+            });
+			 			$("#p4").click(function() {
+            if ($("#j4").is(':hidden')) 
+            $("#j4").slideDown('slow');
+            else 
+            $("#j4").slideUp('slow'); 
+            });
+			 			$("#p5").click(function() {
+            if ($("#j5").is(':hidden')) 
+            $("#j5").fadeIn('slow');
+            else 
+            $("#j5").fadeOut('slow'); 
+            });
+			 			$("#p6").click(function() {
+            if ($("#j6").is(':hidden')) 
+            $("#j6").fadeIn('slow');
+            else 
+            $("#j6").fadeOut('slow'); 
+            });
+			 			$("#p7").click(function() {
+            if ($("#j7").is(':hidden')) 
+            $("#j7").fadeIn('slow');
+            else 
+            $("#j7").fadeOut('slow'); 
+            });
+});
+</script>
+ </head>
+
+<body class="landing">
+<section id="one" class="wrapper style1">
+<div align="center">
+<h1 style="color:black;font-size:40px";>四月新番推薦</h1>
+<hr>
+</div>
+<div align="left">
+<h2 id="or">原創</h2>
+<h3 id="or1" style="display:none">月色真美</h3>
+<p id="d1" style="display:none">茜與小太郎中學三年級時第一次同班，在此相遇的兩人與周圍的同班同學、社團夥伴、老師、父母之間的關係，以及面對自身的成長，
+在這個被變化與不安追趕而慌張向前的季節中，稚嫩而耀眼的青春期的戀愛。</p>
+<a href="#" id="m1" style="display:none">詳細</a>
+<a href="#" id="c1" style="display:none">隱藏</a>
+<a href="#" id="p1" style="display:none">圖片</a>
+<img src="images/01.jpg" style="width:30%;display:none;" id="j1">    
+<h3 id="or2" style="display:none">正確的卡多</h3>
+<p id="d2" style="display:none">2017年某日，日本機場上空出現巨大立方不明物體
+當場吞噬了一架載了252人的客機
+日本政府與民眾面臨突如其來的現象將如何因應.....
+</p>
+<a href="#" id="m2" style="display:none">詳細</a>
+<a href="#" id="c2" style="display:none">隱藏</a>
+<a href="#" id="p2" style="display:none">圖片</a>
+<img src="images/02.jpg" style="width:30%;display:none;" id="j2">   
+<hr>
+</div>
+<div align="left">
+<h2 id="cm">漫畫改編</h2>
+<h3 id="cm1" style="display:none">戀愛暴君</h3>
+<p id="d3" style="display:none">故事描述擁有讓人強制接吻道具的天使「古莉」、與男高中生「青司」、以及喜歡青司的病嬌女高中生「茜」3 人的愛情故事</p>
+<a href="#" id="m3" style="display:none">詳細</a>
+<a href="#" id="c3" style="display:none">隱藏</a>
+<a href="#" id="p3" style="display:none">圖片</a> 
+<img src="images/03.jpg" style="width:30%;display:none;" id="j3">     
+<h3 id="cm2" style="display:none">愛麗絲與藏六</h3>
+<p id="d4" style="display:none">主角「紗名」是能將想像事物實現的超能力少女，故事描述這樣的她和經營花店、超討厭違背常理事物
+的頑固老爹「藏六」周遭所發生的事情。作品曾獲得 2013 年 第 17 屆文化廳媒體藝術祭的漫畫類新人獎。</p>
+<a href="#" id="m4" style="display:none">詳細</a>
+<a href="#" id="c4" style="display:none">隱藏</a>
+<a href="#" id="p4" style="display:none">圖片</a> 
+<img src="images/04.jpg" style="width:30%;display:none;" id="j4">     
+<hr>
+</div>
+<div align="left">
+<h2 id="nv">小說改編</h2>
+<h3 id="nv1" style="display:none">不起眼女主角培育法b</h3>
+<p id="d5" style="display:none">
+春假，為了賺得購入動畫BD而打工的阿宅安藝倫也在櫻花飛舞的道路上遇到了某個少女，對該少女感興趣的倫
+也更以她為模特兒製作了相關的同人遊戲，一個月後，該少女成為了他的同班同學。為了製作遊戲，倫也陸續
+找了美術部王牌來負責插畫、學年第一名的學姐來寫作劇本，一行人以Comiket為目標開始進行相關的遊戲製作。
+</p>
+<a href="#" id="m5" style="display:none">詳細</a>
+<a href="#" id="c5" style="display:none">隱藏</a>
+<a href="#" id="p5" style="display:none">圖片</a> 
+<img src="images/05.jpg" style="width:30%;display:none;" id="j5">     
+<h3 id="nv2" style="display:none">不正經的魔術講師</h3>
+<p id="d6" style="display:none">《不正经的魔术讲师与禁忌教典》改编自日本轻小说家羊太郎原作的轻小说。
+厌恶魔术的魔术讲师所展开的叛逆英雄幻想剧！魔术与科学共同发展的世界——卢瓦佛斯。
+位于魔导大国·阿尔扎诺帝国南部的"阿尔扎诺帝国魔法学院"，是學習世界最先端魔术的最高峰学舍。</p>
+<a href="#" id="m6" style="display:none">詳細</a>
+<a href="#" id="c6" style="display:none">隱藏</a>
+<a href="#" id="p6" style="display:none">圖片</a>
+<img src="images/06.jpg" style="width:30%;display:none;" id="j6">      
+<hr>
+</div>
+<div align="left">
+<h2 id="gm">遊戲改編</h2>
+<h3 id="gm1" style="display:none">碧藍幻想</h3>
+<p id="d7" style="display:none">改编自Cygames及CyDesignation共同制作開發的超大型幻想RPG游戲。在这个奇幻的世界中，我们的主人
+公與一名擁有駕馭星之民的遺產“星晶獸”能力的少女露莉雅相遇了，露莉雅因自己的能力而被帝国的士兵追
+捕，看不過眼的主人公毅然選擇了保護露莉雅，但是因为實力的差距而陷入了危機。這時露莉雅与主人公的
+靈魂產生了共鳴，奇跡發生了……擺脱了危機的露莉雅與主人公，還有為了露莉雅而背叛了帝國的女
+骑士卡塔麗娜一同行動，究竟主人公與露莉雅的運會走向何方呢？</p>
+<a href="#" id="m7" style="display:none">詳細</a>
+<a href="#" id="c7" style="display:none">隱藏</a>
+<a href="#" id="p7" style="display:none">圖片</a> 
+<img src="images/07.jpg" style="width:30%;display:none;" id="j7">    
+<hr>
+</div>
+<div>
+            <h3 style="text-align:right;">
+              <img src="images/gif.gif" id="mm">
+            </h3>
+        </div>
+</section>
+</body>
+</html>
